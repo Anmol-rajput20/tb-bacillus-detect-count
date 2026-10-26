@@ -3,7 +3,7 @@ import {useRef, useState } from "react";
 import { useEffect } from "react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000";
+import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 const ACCEPTED_TYPES = ".jpg,.jpeg,.png,.bmp";
 const MAX_FILES = 20;
 const MAX_SIZE = 15 * 1024 * 1024;
