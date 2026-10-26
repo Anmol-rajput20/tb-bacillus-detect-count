@@ -5,3 +5,5 @@ uvicorn[standard]
 python-multipart
 pillow
 opencv-python
+pymongo
+python-dotenv
