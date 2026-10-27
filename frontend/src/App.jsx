@@ -5,7 +5,7 @@ import "./App.css";
 
 const API_URL =
   import.meta.env.VITE_API_URL ||
-  "http://127.0.0.1:8000";
+  "https://tb-bacillus-vision-api.onrender.com";
 const ACCEPTED_TYPES = ".jpg,.jpeg,.png,.bmp";
 const MAX_FILES = 20;
 const MAX_SIZE = 15 * 1024 * 1024;
