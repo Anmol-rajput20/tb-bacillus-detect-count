@@ -57,6 +57,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://tb-bacillus-detect-count.vercel.app",
         "https://tb-bacillus-detect-count-d9u7t3mf6-anmol-rajput20s-projects.vercel.app",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
